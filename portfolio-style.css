@@ -3,6 +3,7 @@ body {
   min-height: 100%;
   background: #486060;
   background-size: cover;
+  height: 100%;
 }
 
 @font-face {
@@ -20,6 +21,12 @@ body {
   font-family: victor-mono;
 }
 
+.navbar{
+  padding-bottom: 10px;
+}
+.nav-item a{
+  font-size: 20px;
+}
 .header {
   color: #ffffff;
   text-align: center;
@@ -29,10 +36,9 @@ body {
 }
 
 .id {
-  font-family: cursive;
-  float: left;
+  /* float: left; */
   height: 35%;
-  width: 35%;
+  width: 50%;
   padding: 20px;
 }
 
@@ -46,21 +52,29 @@ body {
   padding-top: 20px;
 }
 
-.btn-primary{
-  background-color: rgba(50, 78, 205, 0.532);
+#hero-button{
+  background-color: rgba(50, 205, 120, 0.636);
+  margin-bottom: 20px;
 }
+
 .question{
-  background: url("assets/florian-olivo-4hbJ-eymZ1o-unsplash.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 50%;
+  height: 40%;
+  background-color:#9078608b
 }
 
 .question-text{
-    color: white;
-  font-family: victor-mono;
   text-align: center;
+  color: white;
+  font-family: victor-mono;
 }
+
+
+.question-text h1, p{
+  padding: 10px 50px;
+  position: relative;
+  border-radius: 10px;
+}
+
 .typewriter {
   z-index: 1;
 }
@@ -110,7 +124,7 @@ h1 {
   padding-right: 10px;
 }
 #about_me p {
-  text-align: left;
+  text-align: center;
   font-size: 25px;
 }
 
@@ -258,10 +272,10 @@ form [type="reset"] {
 @media screen and (min-width: 800px) {
   .header_h1,
   .projects {
-    font-family: rangly_font;
     color: #907860;
     font-size: 72px;
   }
+  
 }
 
 @media screen and (max-width: 801px) {
@@ -271,4 +285,9 @@ form [type="reset"] {
     color: #907860;
     font-size: 32px;
   }
+  .id{
+    height: 300px;
+    width: 275px; 
+  }
+
 }
