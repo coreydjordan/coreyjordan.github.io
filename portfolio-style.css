@@ -55,6 +55,7 @@ body {
 #hero-button{
   background-color: rgba(50, 205, 120, 0.636);
   margin-bottom: 20px;
+  border-color: rgba(50, 205, 120, 0.636);
 }
 
 .question{
@@ -73,6 +74,9 @@ body {
   padding: 10px 50px;
   position: relative;
   border-radius: 10px;
+}
+.question-text h4{
+  padding-bottom: 20px;
 }
 
 .typewriter {
@@ -145,7 +149,7 @@ h1 {
 }
 
 #experience p {
-  text-align: left;
+  text-align: center;
   font-size: 25px;
 }
 
@@ -158,7 +162,7 @@ h1 {
 }
 
 #goals p {
-  text-align: left;
+  text-align: center;
   font-size: 25px;
 }
 .projects h1 {
